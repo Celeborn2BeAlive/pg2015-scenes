@@ -1,0 +1,28 @@
+-i sibenik.obj
+-size 1024 512
+-skel sibenik.vskel { n_disc = 0 campoint = -1353.23 686.999 -537.551 }
+-quadlight 8.292 10.1308 -0.179414 1.0 0.0 0.0 0.0 0.0 1.0 200 200 200
+-tonemapping gamma 4.0
+# Decaled view from the light of a corridor
+-vp -14.5866 -10.8535 -0.364958 -vi -13.5901 -10.7751 -0.391026 -vu -0.0784412 0.996917 0.00205217
+#-compare ../../build/sponza5c_reference_d4_s16384_cl1.png 100
+#-o ../../build/tst2_skel01_d3_s512.png
+
+#-renderer opengl { viewSkel = 1 }
+
+#-renderer estimatedirradiance
+#-o results/backward2_irradiance.png
+
+-renderer pathtracer { integrator = a3si_pt spp = 16384 depth = 4 hemisphericalSampling = multipleFixedSkelImportanceBRDF skelStrength = 1 skelProb = 1 }
+-o results/spp16384_depth4_a3si_pt_multipleFixedSkelImportanceBRDF_skelStrength1_skelProb1.png
+
+-renderer pathtracer { integrator = a3si_pt spp = 16384 depth = 4 hemisphericalSampling = multipleFixedSkelImportanceBRDF skelStrength = 1 skelProb = 0 }
+-o results/spp16384_depth4_a3si_pt_multipleFixedSkelImportanceBRDF_skelStrength1_skelProb0.png
+
+-renderer pathtracer { integrator = a3si_pt spp = 16384 depth = 4 hemisphericalSampling = multipleFixedSkelImportanceBRDF skelStrength = 1 skelProb = 0.5 }
+-o results/spp16384_depth4_a3si_pt_multipleFixedSkelImportanceBRDF_skelStrength1_skelProb0_5.png
+
+#-renderer opengl { viewSkel = 1 }
+#-renderer material
+#-renderer pathtracer { integrator = directlighting }
+#-variance

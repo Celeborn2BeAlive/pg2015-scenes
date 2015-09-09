@@ -1,0 +1,20 @@
+<Reference>
+    <Gamma value="2.2"/>
+    <EllapsedTime>
+        <Microseconds value="306864180165"/>
+        <Milliseconds value="306864180.16500002"/>
+        <Seconds value="306864.18016499997"/>
+    </EllapsedTime>
+    <IterationCount value="471379"/>
+    <Renderer name="RecursiveMISBDPTRenderer">
+        <seed value="0"/>
+        <pathDepthMask value="0"/>
+        <iterationCount value="471379"/>
+        <threadCount value="32"/>
+        <spp x="1" y="1"/>
+        <tileSize x="32" y="32"/>
+        <displayProgress value="0"/>
+        <hasDetectedInvalidMeasurement value="0"/>
+        <maxDepth value="6"/>
+    </Renderer>
+</Reference>

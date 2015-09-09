@@ -1,0 +1,16 @@
+This scene is remodeled after Eric Veach and Leo Guibas (Metropolis Light
+Transport, http://dx.doi.org/10.1145/258734.258775). We modeled the scene for
+our own work on Gradient-Domain Metropolis Light Transport
+(http://dx.doi.org/10.1145/2461912.2461943).
+
+The scene is particularly difficult for light transport algorithms, since
+all visible illumination is indirect, and comes to the room from a bright
+source in an adjacent room through a narrowly open door.
+
+This Mitsuba scene is hereby licensed under the Creative Commons
+Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/deed.en_US),
+which basically says you can do whatever you want with it, as long as you
+give us credit. For that purpose, the authors are Miika Aittala, Samuli Laine,
+and Jaakko Lehtinen.
+
+(cc) 2013 Miika Aittala, Samuli Laine, and Jaakko Lehtinen.

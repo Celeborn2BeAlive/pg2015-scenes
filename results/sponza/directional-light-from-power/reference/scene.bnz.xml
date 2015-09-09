@@ -1,0 +1,18 @@
+<Scene nearFarRatio="0.001">
+    <Geometry>
+        <Model path="../../assets/crytek-sponza/sponza.obj"/>
+        <MaterialUpdates>
+            <Material name="floor">
+                <Glossy r="1" g="1" b="1"/>
+            </Material>
+        </MaterialUpdates>
+    </Geometry>
+    <CurvSkel path="../../assets/crytek-sponza/sponza256.vskel"/>
+    <!--     
+    <CurvSkel>
+        <VoxelGrid resolution="16"/>
+        <ThinningProcess segmented="true"/>
+    </CurvSkel>
+    -->
+    <Configs path="configs"/>
+</Scene>

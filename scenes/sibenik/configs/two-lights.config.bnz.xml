@@ -1,0 +1,7 @@
+<Config>
+    <ProjectiveCamera fovY="45" eyeX="18.900784" eyeY="-5.9802542" eyeZ="-0.081044935" pointX="17.934835" pointY="-6.2384114" pointZ="-0.06375774" upX="-0.25819591" upY="0.96609253" upZ="-3.1702216e-06"/>
+    <Lights>
+        <PointLight x="4.1541004" y="-13.85316" z="-5.8849773" r="0" g="0" b="0"/>
+        <PointLight x="4.1541004" y="-13.85316" z="5.8849783" r="0" g="0" b="0"/>
+    </Lights>
+</Config>

@@ -1,0 +1,9 @@
+<Config>
+    <ProjectiveCamera fovY="45" eyeX="655.1322" eyeY="203.47621" eyeZ="503.54205" pointX="654.23846" pointY="203.33408" pointZ="503.11655" upX="-0.13005002" upY="0.98983926" upZ="-0.057486296"/>
+    <Lights>
+        <DirectionalLight>
+        	<IncidentDirection x="0" y="0.8944273" z="0.44721365" />
+        	<ExitantPower x="100000000000" y="100000000000" z="100000000000" />
+        </DirectionalLight>
+    </Lights>
+</Config>

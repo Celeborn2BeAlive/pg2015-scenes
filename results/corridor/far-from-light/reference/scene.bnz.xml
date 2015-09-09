@@ -1,0 +1,24 @@
+<Scene nearFarRatio="0.001">
+    <Geometry>
+        <Model path="../../assets/corridor/vence_couloirS2.obj"/>
+        <Mesh>
+            <VertexList>
+                <Vertex x="-7.8" y="2.5" z="8.5" nx="-1" ny="0" nz="0" u="0" v="0"/>
+                <Vertex x="-7.8" y="2.5" z="6.5" nx="-1" ny="0" nz="0" u="1" v="0"/>
+                <Vertex x="-7.8" y="4.5" z="6.5" nx="-1" ny="0" nz="0" u="1" v="1"/>
+                <Vertex x="-7.8" y="4.5" z="8.5" nx="-1" ny="0" nz="0" u="0" v="1"/>
+            </VertexList>
+            <TriangleList>
+                <Triangle a="0" b="1" c="2"/>
+                <Triangle a="0" b="2" c="3"/>
+            </TriangleList>
+            <Material>
+                <Diffuse r="0" g="0" b="0"/>
+                <Glossy r="0" g="0" b="0" shininess="0"/>
+                <Emission r="100000" g="100000" b="100000"/>
+            </Material>
+        </Mesh>
+    </Geometry>
+    <CurvSkel path="../../assets/corridor/skelcurv2.vskel"/>
+    <Configs path="configs"/>
+</Scene>

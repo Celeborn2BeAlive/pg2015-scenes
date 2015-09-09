@@ -1,0 +1,107 @@
+<Cache>
+    <Renderers currentRenderer="5">
+        <VoxelOpeningSegmentationGraphPathtraceRenderer name="VoxelOpeningSegmentationGraphPathtraceRenderer"/>
+        <OpeningVoxelRenderer name="OpeningVoxelRenderer"/>
+        <SkeletonMappingRenderer name="SkeletonMappingRenderer"/>
+        <BDPTImportanceCachingRenderer name="BDPTImportanceCachingRenderer"/>
+        <GeometryRenderer name="GeometryRenderer">
+            <seed value="0"/>
+            <pathDepthMask value="0"/>
+            <threadCount value="32"/>
+            <threadStatesPreviousFrame/>
+            <threadStates/>
+            <spp x="1" y="1"/>
+            <tileSize x="32" y="32"/>
+            <displayProgress value="0"/>
+        </GeometryRenderer>
+        <IGIImportanceCachingRenderer name="IGIImportanceCachingRenderer"/>
+        <VCMRenderer name="VCMRenderer"/>
+        <IGISkelBasedConnectionRenderer name="IGISkelBasedConnectionRenderer"/>
+        <PrimaryRaysRenderer name="PrimaryRaysRenderer"/>
+        <IGIRenderer name="IGIRenderer"/>
+        <PathtraceRenderer name="PathtraceRenderer"/>
+        <RecursiveMISBDPTRenderer name="RecursiveMISBDPTRenderer">
+            <seed value="0"/>
+            <pathDepthMask value="0"/>
+            <threadCount value="32"/>
+            <threadStatesPreviousFrame>
+                <v0 value="189070439"/>
+                <v1 value="26585157"/>
+                <v2 value="26585529"/>
+                <v3 value="26583924"/>
+                <v4 value="26583915"/>
+                <v5 value="26584602"/>
+                <v6 value="26553915"/>
+                <v7 value="26545371"/>
+                <v8 value="26543358"/>
+                <v9 value="26582121"/>
+                <v10 value="26584020"/>
+                <v11 value="26584866"/>
+                <v12 value="26585721"/>
+                <v13 value="26585313"/>
+                <v14 value="26583879"/>
+                <v15 value="26583834"/>
+                <v16 value="26585241"/>
+                <v17 value="26584689"/>
+                <v18 value="26584506"/>
+                <v19 value="26584902"/>
+                <v20 value="26584404"/>
+                <v21 value="26583303"/>
+                <v22 value="26558478"/>
+                <v23 value="26555022"/>
+                <v24 value="26555820"/>
+                <v25 value="26582616"/>
+                <v26 value="26583615"/>
+                <v27 value="26585043"/>
+                <v28 value="26583774"/>
+                <v29 value="26585811"/>
+                <v30 value="26584779"/>
+                <v31 value="26583918"/>
+            </threadStatesPreviousFrame>
+            <threadStates>
+                <v0 value="192039354"/>
+                <v1 value="27001269"/>
+                <v2 value="27001530"/>
+                <v3 value="27000168"/>
+                <v4 value="27000054"/>
+                <v5 value="27000708"/>
+                <v6 value="26970057"/>
+                <v7 value="26961495"/>
+                <v8 value="26959446"/>
+                <v9 value="26998188"/>
+                <v10 value="27000054"/>
+                <v11 value="27000975"/>
+                <v12 value="27001821"/>
+                <v13 value="27001296"/>
+                <v14 value="27000024"/>
+                <v15 value="26999943"/>
+                <v16 value="27001341"/>
+                <v17 value="27000816"/>
+                <v18 value="27000543"/>
+                <v19 value="27001086"/>
+                <v20 value="27000300"/>
+                <v21 value="26999574"/>
+                <v22 value="26974542"/>
+                <v23 value="26971104"/>
+                <v24 value="26972049"/>
+                <v25 value="26998638"/>
+                <v26 value="26999736"/>
+                <v27 value="27000963"/>
+                <v28 value="26999841"/>
+                <v29 value="27001884"/>
+                <v30 value="27000870"/>
+                <v31 value="26999853"/>
+            </threadStates>
+            <spp x="1" y="1"/>
+            <tileSize x="32" y="32"/>
+            <displayProgress value="0"/>
+            <maxDepth value="6"/>
+        </RecursiveMISBDPTRenderer>
+        <SkelBDPTEG15Renderer name="SkelBDPTEG15Renderer"/>
+        <VoxelOpeningSegmentationGraphPathtraceRenderer2 name="VoxelOpeningSegmentationGraphPathtraceRenderer2"/>
+        <BDPTSkelBasedConnectionMultiDistribRenderer name="BDPTSkelBasedConnectionMultiDistribRenderer"/>
+    </Renderers>
+    <RenderModule gamma="2.2"/>
+    <ProjectiveCamera fovY="45" eyeX="4.1260347" eyeY="4.3181939" eyeZ="-3.5971382" pointX="3.126756" pointY="4.3181939" pointZ="-3.6351092" upX="-3.9081091e-10" upY="0.99999988" upZ="1.0284926e-08"/>
+    <Config name="far-from-light"/>
+</Cache>

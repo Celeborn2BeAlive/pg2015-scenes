@@ -1,0 +1,6 @@
+<Viewer>
+    <Window width="1600" height="900"/>
+    <ViewController speedFarRatio="0.1"/>
+    <Scene path="scene.bnz.xml"/>
+    <Framebuffer width="512" height="512"/>
+</Viewer>

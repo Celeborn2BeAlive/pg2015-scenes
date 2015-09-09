@@ -1,0 +1,92 @@
+<Scene nearFarRatio="0.001">
+    <Geometry>
+        <Materials>
+            <Material name="marble">
+                <Diffuse r="1" g="1" b="1" textureDiffuse="../../../assets/veach-door/marble.jpg" />
+            </Material>
+
+            <Material name="table_leg">
+                <Diffuse r="0.65" g="0.65" b="0.47" />
+            </Material>
+
+            <Material name="checker">
+                <Diffuse r="1" g="1" b="1" textureDiffuse="../../../assets/veach-door/checker.png" />
+                <Glossy r="0.1" g="0.1" b="0.1" shininess="64" />
+            </Material>
+
+            <Material name="white">
+                <Diffuse r="0.73" g="0.73" b="0.73"/>
+            </Material>
+
+            <Material name="bumpmetal">
+                <Specular indexOfRefraction="-1">
+                    <Reflection r="1" g="1" b="1" absorption="0.5" />
+                </Specular>
+            </Material>
+
+            <Material name="glass">
+                <Specular indexOfRefraction="1.5">
+                    <Reflection r="1" g="1" b="1" absorption="0"/>
+                    <Transmission r="1" g="1" b="1"/>
+                </Specular>
+            </Material>
+
+            <Material name="picture_frame">
+                <Diffuse r="0.2" g="0.1" b="0.05"/>
+            </Material>
+
+            <Material name="picture_image">
+                <Diffuse r="1" g="1" b="1" textureDiffuse="../../../assets/veach-door/pic.jpg" />
+            </Material>
+
+            <Material name="door_frame">
+                <Diffuse r="0.3" g="0.2" b="0.1" />
+            </Material>
+
+            <Material name="wood1">
+                <Diffuse r="1" g="1" b="1" textureDiffuse="../../../assets/veach-door/72cf.jpg" />
+            </Material>
+
+            <Material name="wood2">
+                <Diffuse r="1" g="1" b="1" textureDiffuse="../../../assets/veach-door/72rdf.jpg" />   
+            </Material>
+
+            <Material name="copper">
+                <Specular indexOfRefraction="0">
+                    <Reflection r="0.9" g="0.7" b="0.5" absorption="0"/>
+                </Specular>
+            </Material>
+        </Materials>
+
+        <Model path="../../assets/veach-door/walls.obj" material="white" />
+        <Model path="../../assets/veach-door/picture_image.obj" material="picture_image" />
+        <Model path="../../assets/veach-door/picture_frame.obj" material="picture_frame" />
+        <Model path="../../assets/veach-door/floor01.obj" material="white" />
+        <Model path="../../assets/veach-door/floor.obj" material="checker" />
+        <Model path="../../assets/veach-door/door_knob.obj" material="copper" />
+        <Model path="../../assets/veach-door/door_hinge3.obj" material="copper" />
+        <Model path="../../assets/veach-door/door_hinge2.obj" material="copper" />
+        <Model path="../../assets/veach-door/door_hinge1.obj" material="copper" />
+        <Model path="../../assets/veach-door/door.obj" material="wood1" />
+        <Model path="../../assets/veach-door/door_frame_top.obj" material="door_frame" />
+        <Model path="../../assets/veach-door/door_frame_right.obj" material="door_frame" />
+        <Model path="../../assets/veach-door/door_frame_left.obj" material="door_frame" />
+        <Model path="../../assets/veach-door/teapot3.obj" material="glass" />
+        <Model path="../../assets/veach-door/teapot2.obj" material="marble" />
+        <Model path="../../assets/veach-door/teapot1.obj" material="bumpmetal" />
+        <Model path="../../assets/veach-door/table_leg4.obj" material="table_leg" />
+        <Model path="../../assets/veach-door/table_leg3.obj" material="table_leg" />
+        <Model path="../../assets/veach-door/table_leg2.obj" material="table_leg" />
+        <Model path="../../assets/veach-door/table_leg1.obj" material="table_leg" />
+        <Model path="../../assets/veach-door/table.obj" material="wood2" />
+
+        <Shape type="sphere" x="45.767883" y="206.87271" z="72.5" radius="1" discLat="32" discLong="16">
+            <Material>
+                <Diffuse r="0" g="0" b="0"/>
+                <Glossy r="0" g="0" b="0" shininess="0"/>
+                <Emission r="400000" g="400000" b="400000" />
+            </Material>
+        </Shape>
+    </Geometry>
+    <Configs path="configs"/>
+</Scene>
