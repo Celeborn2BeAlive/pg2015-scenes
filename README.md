@@ -1,4 +1,6 @@
-# pg2015-scenes
+# Skeleton based Vertex Connection Resampling for Bidirectional Path Tracing - Scenes
+
+![teaser image](https://raw.githubusercontent.com/Celeborn2BeAlive/pg2015-code/master/teaser_image.png)
 
 This repository contains the scenes used to compare our method proposed at the conference [Pacific Graphics 2015](http://cg.cs.tsinghua.edu.cn/pg2015/).
 
